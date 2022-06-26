@@ -1,0 +1,52 @@
+@charset "utf-8";
+* { margin:0; padding:0;}
+ul,ol,li { list-style:none;}
+a { text-decoration:none;}
+h1,h2,h3,h4,h5,h6 { font-size:100%;}
+body { font-size:13px; line-height:1  ; font-family: 'NEXON Lv1 Gothic OTF';}
+table { border-collapse: collapse;}
+img { vertical-align:top;}
+.clear:after { content:""; display:block; clear:both;}
+/* 타이틀폰트 */
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 투니버스에서 놀자 폰트 */
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 본문 */
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    /* #00a0e9 */
+  .center{width: 1600px; margin:0 auto;}
+
+  .about-toni{padding-top: 200px;}
+  .about-toni-bg {background-color:#00a0e9; width: 100vw; height: 100vh;}
+
+  .slide-btn {position: absolute; top:88%; left:50%; transform: translate(-50%,-50%);}
+  .slide-btn li{float:left; margin:0 5px;}
+  .slide-btn li a{display: block; width: 10px; height: 10px; border-radius: 50%; background-color: #fff;}
+  .slide-btn li.on a{width: 20px;}
+
+
+  .slide1:nth-child(1){display: block;}
+  .slide1{position: absolute;width: 1600px; display: none;}
+
+  .slide-text{float:left;color:#fff;margin-top: 100px;margin-left: 80px;}
+  .slide-text h1{font-size: 40px;}
+  .slide-text p{line-height: 30px;font-size: 20px; margin-top: 40px;}
+
+  .slide1 img{width: 760px; float:right;}
+
+  .toni-movie {float:right;}
